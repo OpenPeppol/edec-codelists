@@ -21,7 +21,7 @@
   <parent>
     <groupId>com.helger</groupId>
     <artifactId>parent-pom</artifactId>
-    <version>3.1.0</version>
+    <version>3.2.0</version>
   </parent>
   <artifactId>edec-codelists-tools</artifactId>
   <version>9.7</version>
@@ -62,16 +62,16 @@
   <properties>
     <jaxb-plugin.group>org.jvnet.jaxb</jaxb-plugin.group>
     <jaxb-plugin.artifact>jaxb-maven-plugin</jaxb-plugin.artifact>
-    <jaxb-plugin.version>4.0.12</jaxb-plugin.version>
-    <ph-jaxb-plugin.version>5.1.1</ph-jaxb-plugin.version>
+    <jaxb-plugin.version>4.0.16</jaxb-plugin.version>
+    <ph-jaxb-plugin.version>5.1.2</ph-jaxb-plugin.version>
   </properties>
 
   <dependencyManagement>
     <dependencies>
       <dependency>
         <groupId>com.helger.commons</groupId>
-        <artifactId>ph-commons-parent-pom</artifactId>
-        <version>12.5.0</version>
+        <artifactId>ph-commons-bom</artifactId>
+        <version>12.7.1</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -87,17 +87,38 @@
       </dependency>
       <dependency>
         <groupId>com.helger.photon</groupId>
-        <artifactId>ph-oton-parent-pom</artifactId>
-        <version>10.6.0</version>
+        <artifactId>ph-oton-bom</artifactId>
+        <version>10.8.1</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>com.helger.peppol</groupId>
-        <artifactId>peppol-commons-parent-pom</artifactId>
-        <version>13.0.0</version>
+        <artifactId>peppol-commons-bom</artifactId>
+        <version>13.2.3</version>
         <type>pom</type>
         <scope>import</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>org.glassfish.jaxb</groupId>
+        <artifactId>jaxb-bom</artifactId>
+        <version>4.0.9</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-bom</artifactId>
+        <version>2.26.1</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>${junit4.version}</version>
       </dependency>
       
       <dependency>
