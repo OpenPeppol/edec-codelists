@@ -24,8 +24,7 @@
     <version>3.2.0</version>
   </parent>
   <artifactId>edec-codelists-tools</artifactId>
-  <version>9.7</version>
-  <packaging>jar</packaging>
+  <version>9.8</version>
   <name>edec-codelists-tools</name>
   <url>https://github.com/openpeppol/edec-codelists/peppol-codelist-tools</url>
   <inceptionYear>2020</inceptionYear>
@@ -71,7 +70,7 @@
       <dependency>
         <groupId>com.helger.commons</groupId>
         <artifactId>ph-commons-bom</artifactId>
-        <version>12.7.1</version>
+        <version>12.8.0</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -88,14 +87,14 @@
       <dependency>
         <groupId>com.helger.photon</groupId>
         <artifactId>ph-oton-bom</artifactId>
-        <version>10.8.1</version>
+        <version>10.9.0</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>com.helger.peppol</groupId>
         <artifactId>peppol-commons-bom</artifactId>
-        <version>13.2.3</version>
+        <version>13.3.0</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
