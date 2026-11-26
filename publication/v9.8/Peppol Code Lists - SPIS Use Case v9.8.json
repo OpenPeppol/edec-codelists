@@ -1,12 +1,18 @@
 {
   "version":"9.8",
-  "entry-count":1,
+  "entry-count":2,
   "values":[
     {
       "use-case-id":"MLS",
       "initial-release":"9.4",
       "state":"active",
       "comment":"TICC-410"
+    },
+    {
+      "use-case-id":"TAXAUTHORITY",
+      "initial-release":"9.8",
+      "state":"active",
+      "comment":"TICC-481"
     }
   ]
 }

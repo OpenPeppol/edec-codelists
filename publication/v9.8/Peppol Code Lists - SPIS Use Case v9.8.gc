@@ -56,5 +56,19 @@ Do NOT edit!</ext:info>
         <SimpleValue>TICC-410</SimpleValue>
       </Value>
     </Row>
+    <Row>
+      <Value ColumnRef="use-case-id">
+        <SimpleValue>TAXAUTHORITY</SimpleValue>
+      </Value>
+      <Value ColumnRef="initial-release">
+        <SimpleValue>9.8</SimpleValue>
+      </Value>
+      <Value ColumnRef="state">
+        <SimpleValue>active</SimpleValue>
+      </Value>
+      <Value ColumnRef="comment">
+        <SimpleValue>TICC-481</SimpleValue>
+      </Value>
+    </Row>
   </SimpleCodeList>
 </gc:CodeList>
